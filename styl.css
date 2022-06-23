@@ -1,0 +1,42 @@
+body,
+html {
+    background-color: #ddd;
+}
+
+main {
+   
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    background-color: #fff;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.scroll, .scroll2 {
+
+background-repeat: no-repeat;
+background-color: red;
+background-position:center ;
+width: 50px;
+height: 50px;
+border: none;
+border-radius: 50%;
+position: fixed;
+right: 570px;
+bottom: 20px;
+cursor: auto !important;
+transition: opacity 0.5;
+}
+
+.scroll2{
+  background-color: aqua;
+  left:570px;
+}
+
+.scroll .show,
+.scroll2 .show
+{
+  cursor: pointer !important;
+  opacity: 1;
+}
